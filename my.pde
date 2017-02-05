@@ -87,7 +87,7 @@ void draw(){
   planet.move();
   }
   fill(200);
-  rect(0,0,200,100);
+  rect(0,0,250,100);
   fill(0);
   //text("E:" + (float)planet.energy(star),0,24);
   text("power:" + power,0,24);
