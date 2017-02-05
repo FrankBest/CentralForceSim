@@ -93,6 +93,7 @@ void draw(){
   text("power:" + power,0,24);
   text("Xspd:" + (float)planet.xspd,0,48);
   text("Yspd:" + (float)planet.yspd,0,72);
+  text("Press Space to Speed up, other Keys to Stop",0,96);
   //text(frameRate,0,25);
   planet.show();
   star.show();
