@@ -8,10 +8,10 @@ Planet star    = new Planet(400, 300,    0,  0, 2);
 class Planet{
   float xpos;
   float ypos;
-  //double xspd;
-  //double yspd;
-  float xspd;
-  float yspd;
+  double xspd;
+  double yspd;
+  //float xspd;
+  //float yspd;
   float mass;
   float radius = 2;
   int   col = 1;
