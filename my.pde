@@ -75,7 +75,7 @@ void setup(){
   background(200);
   //background(200,200,0);
   noStroke();
-  textSize(18);
+  textSize(16);
 }
 
 void draw(){
@@ -90,10 +90,11 @@ void draw(){
   rect(0,0,250,100);
   fill(0);
   //text("E:" + (float)planet.energy(star),0,24);
-  text("power:" + power,0,24);
-  text("Xspd:" + (float)planet.xspd,0,48);
-  text("Yspd:" + (float)planet.yspd,0,72);
-  text("Press Space to Speed up, other Keys to Stop",0,96);
+  text("power:" + power,0,20);
+  text("Xspd:" + (float)planet.xspd,0,40);
+  text("Yspd:" + (float)planet.yspd,0,60);
+  text("Press Space to Speed up.",0,80);
+  text("Press Other Keys to Stop.",0,100);
   //text(frameRate,0,25);
   planet.show();
   star.show();
