@@ -1,5 +1,4 @@
 float G = 0.2 ;//Gravity Constant
-\\test
 double dt= 0.00005;//A tiny period of time
 float  power = 2; //Gravity power
 boolean run = false;
